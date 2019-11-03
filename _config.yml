@@ -25,7 +25,7 @@ baseurl: # the subpath of your site, e.g. "/blog"
 url: "https://esperancer.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 logo: # path of site logo, e.g. "/images/logo.png"
 date_format: "%B %-d, %Y"
-read_time: # reading time estimates, e.g. true
+read_time: 200 # reading time estimates, e.g. true
 words_per_minute: # 200
 mathjax: # MathJax equations, e.g. true
 google_fonts:
@@ -89,10 +89,10 @@ defaults:
       share: true
 
 # Site Author
-author:
-  name:
+author: oxide
+  name: Lee Yun-seong
   picture:
-  email:
+  email: sharlean@naver.com
   twitter:
   links:
     - title:

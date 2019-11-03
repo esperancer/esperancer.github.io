@@ -11,6 +11,7 @@ layout: page
       {% assign tags_max = tag[1].size %}
     {% endif %}
   {% endfor %}
+
   {% for i in (1..tags_max) reversed %}
     {% for tag in site.tags %}
       {% if tag[1].size == i %}
@@ -31,11 +32,12 @@ layout: page
   {% endif %}
 {% endfor %}
 
+
 {% for i in (1..tags_max) reversed %}
   {% for tag in site.tags %}
     {% if tag[1].size == i %}
       <section id="{{ tag[0] | slugify | downcase }}" class="taxonomy-section">
-        <h2 class="taxonomy-title">{{ tag[0] }}</h2>
+        <h2 class="taxonomy-title">tag :: {{ tag[0] }}</h2>
         <div class="entries-{{ page.entries_layout | default: 'list' }}">
           {% for entry in tag.last %}
             {% include entry.html %}
