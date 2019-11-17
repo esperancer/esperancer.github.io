@@ -89,15 +89,15 @@ defaults:
       share: true
 
 # Site Author
-author: oxide
-  name: oxide
-  picture:
-  email: sharlean@naver.com
-  twitter:
-  links:
-    - title:
-      url:
-      icon:
+# author: oxide
+#   name: oxide
+#   picture:
+#   email: sharlean@naver.com
+#   twitter:
+#   links:
+#     - title:
+#       url:
+#       icon:
 
 # Footer Links
 footer_links:
