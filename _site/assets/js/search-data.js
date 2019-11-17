@@ -5,7 +5,7 @@ var store = [{
         "url": "http://localhost:4000/welcome-to-jekyll/"
       },{
         "title": "KSUG 하반기 세미나 후기",
-        "excerpt":"글 작성 중.. ","categories": [],
+        "excerpt":"운이 좋게 KSUG 2019 하반기 세미나 신청이 성공해서 잘 다녀왔습니다. 세미나는 오전 10시부터 오후 4시 40여분까지 진행되었으며, 다음과 같은 주제로 진행되었습니다. 아래는 개인적인 후기입니다. • 더 자바: 코드를 테스트하는 다양한 방법 (백기선님 / 10:00-12:00) JUnit5에서 바뀐 개선점을 중심으로 코드를 테스트하는 다양한 방법을 얘기해주셨습니다. 개인적으로는 구체적으로 메소드명을 작문(?)해야만 어떤 테스트인지 알기...","categories": [],
         "tags": ["KSUG","한국스프링사용자모임","Java","MSA","Monolithic"],
         "url": "http://localhost:4000/KSUG-%ED%95%98%EB%B0%98%EA%B8%B0-%EC%84%B8%EB%AF%B8%EB%82%98-%ED%9B%84%EA%B8%B0/"
       }]
